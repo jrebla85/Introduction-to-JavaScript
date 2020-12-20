@@ -17,7 +17,11 @@ Do the following:
 
    HINT: no function required
 */
+let votingAge = '35'
 
+if(votingAge > 17){
+  console.log('true');
+}
 
 
 /*
@@ -30,8 +34,18 @@ Do the following:
 
    HINT: no function required
 */
+let citizen = 'John'
+let status = 'Employed'
 
-
+if(status === 'unemployed') 
+{
+  citizen = 'John'
+}
+else if(status === 'Employed') 
+{
+  citizen = 'Gary'
+}
+ console.log(citizen)
 
 
 
