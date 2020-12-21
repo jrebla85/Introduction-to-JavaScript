@@ -189,10 +189,21 @@ Use the game function below to do the following:
   
   HINT: Remember that the order in which we pass in our arguments matters when it comes to parameters
 */
+let computerChoice = Math.round(Math.random() *3);
+
+  if (computerChoice === 1){computerChoice='rock'}
+  else if(computerChoice ===2) {computerChoice='paper'}
+  else{computerChoice ='scissors'}
 
 function game(user, computer){
-    /*add your code here*/
+  computer="console.log(computerChoice)"
+
+if (user==="rock" && computer==="scissors" || user ==="paper" && computer==="rock" || user==="scissors" && computer==="paper"){return "you win!"} 
+else if (user === computer){return "it's a tie"}
+else {return "you lose!"}
 }
+
+console.log (game(paper,computer))
   
   
 
