@@ -97,7 +97,7 @@ function dogYears(age){
   return dogAge;
 }
 
-console.log (dogYears)
+console.log (dogYears (35))
 
 
 
@@ -207,25 +207,27 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
-  }
+function miles(kmToMiles){
+  return kmToMiles * 0.621371
+}
+
+console.log(miles(10))
 
 
 
 //Task 5b - Feet to CM
 /*
 Using the feet function below do the following:
-  1. Receive a number of cm
-  2. Convert the number of cm to feet
-  3. Return number of feet
+1. Receive a number of cm
+2. Convert the number of cm to feet
+3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-    /*add your code here*/
-  }
- 
+function feet(cmToFeet){
+  return cmToFeet * 30.48
+}
 
+console.log(feet (3))
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
