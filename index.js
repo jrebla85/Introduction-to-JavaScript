@@ -239,9 +239,13 @@ Using the annoyingSong function below do the following:
       "{number} bottles of soda on the wall, {number} bottles of soda, take one down pass it around {number left over} bottles of soda on the wall"
 */
 
-function annoyingSong(/*add your code here*/){
-        /*add your code here*/
+function annoyingSong(bottleNum){
+  for(let i = 0; i < bottleNum; bottleNum--) {
+    return `${bottleNum} bottles of soda on the wall, ${bottleNum} bottles of soda, take one down pass it around ${--bottleNum} bottles of soda on the wall` 
   }
+}
+
+console.log(annoyingSong (10))
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -282,7 +286,7 @@ function grade(score){
     } 
   }
 
-  console.log(grade())
+  console.log(grade(88))
   
   
 
